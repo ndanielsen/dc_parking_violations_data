@@ -17,9 +17,30 @@ IS_ANACONDA=$(shell python -c "import sys;t=str('anaconda' in sys.version.lower(
 requirements: test_environment
 	pip install -r requirements.txt
 
-## Make Dataset
-data: requirements
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py
+# Download Enrichment Data
+enrich: requirements
+	$(PYTHON_INTERPRETER) src/data/download_enrichment.py core/enrichment_data.csv data/raw/
+
+## Download all raw csvs from datasite
+raw: enrich
+	$(PYTHON_INTERPRETER) src/data/download_raw.py core/dc_parking_violations.json data/raw/
+
+## Make Raw Dataset
+combine_data: raw
+	$(PYTHON_INTERPRETER) src/data/combine_dataset.py data/raw/ data/interim/combined_raw_parking_violations.tsv
+
+clean_data: combine_data
+	$(PYTHON_INTERPRETER) src/data/clean_dataset.py data/interim/combined_raw_parking_violations.tsv data/interim/clean_parking_violations.tsv
+
+fine_data: clean_data
+	$(PYTHON_INTERPRETER) src/data/add_fines_dataset.py data/interim/clean_parking_violations.tsv core/fine.csv data/interim/fine_enriched_parking_violations.tsv
+
+street_data:
+	$(PYTHON_INTERPRETER) src/data/add_streetsegid_dataset.py data/interim/fine_enriched_parking_violations.tsv data/raw/street_segments.csv data/interim/streetid_enriched_parking_violations.tsv
+
+neighborhood_data:
+	$(PYTHON_INTERPRETER) src/data/add_neighborhood_dataset.py data/interim/fine_enriched_parking_violations.tsv core/neighborhood_clusters/Neighborhood_Clusters.shp data/interim/neighborhood_enriched_parking_violations.tsv
+
 
 ## Delete all compiled Python files
 clean:
