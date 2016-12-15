@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<pubdate>20140321</pubdate>
+<title>Parking Beats (ParkingBeatPly)</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<publish>DC GIS</publish>
+</pubinfo>
+<onlink>http://dcatlas.dcgis.dc.gov/catalog/download.asp?downloadName=ParkingBeatPly&amp;downloadTYPE=KMZ</onlink>
+<onlink>http://dcatlas.dcgis.dc.gov/catalog/download.asp?downloadName=ParkingBeatPly&amp;downloadTYPE=ESRI</onlink>
+<lworkcit>
+<citeinfo>
+<title>DC Geographic Information System</title>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Parking Beats. The dataset contains Department of Public Works Parking Beats, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. OCTO staff, in consultation with DPW, heads-up digitized the routes, with the SIS street centerlines as a background, utilizing source maps and staff resources. All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters. METADATA CONTENT IS IN PROCESS OF VALIDATION AND SUBJECT TO CHANGE. THIS IS FOR INTERNAL DC GOVERNMENT USE ONLY.</abstract>
+<purpose>This data is used for the planning and management of Washington, D.C. by local government agencies.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20140321</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-180</westbc>
+<eastbc>180</eastbc>
+<northbc>90</northbc>
+<southbc>-90</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Parking Enforcement</themekey>
+<themekey>boundary</themekey>
+<themekey>society</themekey>
+<themekey>Public Works</themekey>
+<themekey>Parking Beats</themekey>
+<themekey>Route</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Categories</themekt>
+<themekey>society</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>DC GIS</placekey>
+<placekey>District of Columbia</placekey>
+<placekey>Washington</placekey>
+<placekey>D.C.</placekey>
+<placekey>DC</placekey>
+<placekey>DCGIS</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>http://dc.gov/page/terms-and-conditions-use-district-data</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>441 4th St NW, Suite 930S</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20001</postal>
+<country>AF</country>
+</cntaddr>
+<cntfax>(202) 727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+<hours>8:30 am - 5 pm</hours>
+</cntinfo>
+</ptcontac>
+<datacred>DC Department of Public Works</datacred>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+<crossref>
+<citeinfo>
+<pubdate>20020214</pubdate>
+<title>DC Geographic Information System</title>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. Validated by source and/or responsible agency.</attraccr>
+</attracc>
+<logic>Validated by source and/or responsible agency.</logic>
+<complete>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. Validated by source and/or responsible agency.</complete>
+<posacc>
+<horizpa>
+<horizpar>In process of validation by source and/or responsible agency.</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>In process of validation by source and/or responsible agency.</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<title>DPW Parking Beats</title>
+</citeinfo>
+</srccite>
+<typesrc>hardcopyPaper</typesrc>
+<srccitea>DPW Parking Beats</srccitea>
+<srccontr>locations and attributes</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<title>DPW Parking Beat digital file</title>
+</citeinfo>
+</srccite>
+<typesrc>None</typesrc>
+<srccitea>DPW Parking Beat digital file</srccitea>
+</srcinfo>
+<procstep>
+<procdesc>Staff consulted with Parking Beat contacts at OCTO and DPW to ensure the accuracy and currency of the data. The data is current as of May 2005.</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Data Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>441 4th St NW, Suite 930 South</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20001</postal>
+<country>US</country>
+</cntaddr>
+<cntfax>202-727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>OCTO GIS staff heads-up digitized the Parking Enforcement Beats using the SIS street centerlines as a backdrop. OCTO used internal source maps provided by DPW Parking Enforcement and staff resources to compile the routes. A polygon shapefile was created through this process in the ArcGIS environment. All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>unknown</addrtype>
+<country>AF</country>
+</cntaddr>
+<cntfax>(202) 727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+<hours>10 am - 5 pm</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Dataset moved.</procdesc>
+<procdate>20050209</procdate>
+<proctime>124912</proctime>
+</procstep>
+<procstep>
+<procdesc>Dataset moved.</procdesc>
+<procdate>20050526</procdate>
+<proctime>120748</proctime>
+</procstep>
+<procstep>
+<procdesc>DC updated parking beats to follow the 2013 single member district lined (SMD). Staff used the smd value as the parking beat id.</procdesc>
+<procdate>20140321</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>OCTO</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>unknown</addrtype>
+<country>AF</country>
+</cntaddr>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>103</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>103</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>DCGIS.ParkingBeatPly</enttypl>
+</enttyp>
+<attr>
+<attrlabl>BEAT_ID</attrlabl>
+<attrdef>Parking Beat Identifier</attrdef>
+</attr>
+<attr>
+<attrlabl>WARD_ID</attrlabl>
+<attrdef>DC Ward Identfier Parking Beat is in</attrdef>
+</attr>
+<attr>
+<attrlabl>GIS_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>441 4th St NW, Suite 930S</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20001</postal>
+<country>US</country>
+</cntaddr>
+<cntfax>(202) 727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+<hours>8:30 am - 5 pm</hours>
+<cntinst>dcgis@dc.gov</cntinst>
+</cntinfo>
+</distrib>
+<distliab>Acknowledgment of the DC Geographic Information Systems Program (DC GIS). The District of Columbia Government makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a particular use, nor are any such warranties to be implied or inferred with respect to the information or data furnished herein.</distliab>
+<custom>Contact OCTO GIS.</custom>
+</distinfo>
+<metainfo>
+<metd>20140319</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>441 4th St NW, Suite 930S</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20001</postal>
+<country>US</country>
+</cntaddr>
+<cntfax>(202) 727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+<hours>8:30 am - 5 pm</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
