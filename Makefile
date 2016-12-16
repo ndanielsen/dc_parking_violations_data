@@ -55,10 +55,12 @@ lint:
 
 ## Upload Data to S3
 sync_data_to_s3:
+	source .aws
 	aws s3 sync data/ s3://$(BUCKET)/data/
 
 ## Download Data from S3
 sync_data_from_s3:
+	source .aws
 	aws s3 sync s3://$(BUCKET)/data/ data/
 
 ## Set up python interpreter environment

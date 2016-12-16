@@ -31,3 +31,4 @@ six==1.10.0
 snowballstemmer==1.2.1
 Sphinx==1.4.9
 tornado==4.4.2
+requests==2.12.4
