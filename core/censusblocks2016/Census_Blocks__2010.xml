@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<title>Census Blocks - 2010</title>
+</citeinfo>
+</citation>
+<accconst>None</accconst>
+<useconst>http://dc.gov/page/terms-and-conditions-use-district-data</useconst>
+</idinfo>
+<spdoinfo>
+<ptvctinf>
+<sdtsterm>
+<ptvctcnt>6507</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>DCGIS.BlockPly</enttypl>
+<enttypd>Topological Faces (Polygons With all Geocodes) County-based shapefile</enttypd>
+<enttypds>U.S. Census Bureau</enttypds>
+</enttyp>
+<attr>
+<attrlabl>OP00008</attrlabl>
+<attrdef>Aggregation of non-hispanic multiple race tabulations that include "Native Hawaiian and Other Pacific Islander"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>P0010005</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0020010</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000015</attrlabl>
+<attrdef>Aggregation of non-hispanic age 18 and over multiple race tabulations that include "Asian"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>ACRES</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000016</attrlabl>
+<attrdef>Aggregation of non-hispanic age 18 and over multiple race tabulations that include "Native Hawaiian and Other Pacific Islander"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0010006</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0040010</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0040007</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0020007</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0040009</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000004</attrlabl>
+<attrdef>Aggregation of multiple race tabulations that include "Native Hawaiian and Other Pacific Islander"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>GEOID10</attrlabl>
+</attr>
+<attr>
+<attrlabl>BLOCK</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP00007</attrlabl>
+<attrdef>Aggregation of non-hispanic multiple race tabulations that include "Asian"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>P0030006</attrlabl>
+</attr>
+<attr>
+<attrlabl>ALAND10</attrlabl>
+<attrdef>Land Area</attrdef>
+</attr>
+<attr>
+<attrlabl>P0010001</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0030004</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000013</attrlabl>
+<attrdef>Aggregation of non-hispanic age 18 and over multiple race tabulations that include "Black or African American"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>P0030003</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0040005</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0030008</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0040002</attrlabl>
+</attr>
+<attr>
+<attrlabl>GEOID</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0040006</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP00009</attrlabl>
+<attrdef>Aggregation of age 18 and over multiple race tabulations that include "Black or African American"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>P0010003</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP00005</attrlabl>
+<attrdef>Aggregation of non-hispanic multiple race tabulations that include "Black or African American"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>P0010002</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000001</attrlabl>
+<attrdef>Aggregation of multiple race tabulations that include "Black or African American"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>OP00010</attrlabl>
+<attrdef>Aggregation of age 18 and over multiple race tabulations that include "American Indian and Alaska Native"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>P0020008</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000003</attrlabl>
+<attrdef>Aggregation of multiple race tabulations that include "Asian"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>P0040008</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP00011</attrlabl>
+<attrdef>Aggregation of age 18 and over multiple race tabulations that include "Asian"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>OP00012</attrlabl>
+<attrdef>Aggregation of age 18 and over multiple race tabulations that include "Native Hawaiian and Other Pacific Islander"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>H0010001</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000002</attrlabl>
+<attrdef>Aggregation of multiple race tabulations that include "American Indian and Alaska Native"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>OP00006</attrlabl>
+<attrdef>Aggregation of non-hispanic multiple race tabulations that include "American Indian and Alaska Native"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>BLKGRP</attrlabl>
+</attr>
+<attr>
+<attrlabl>OP000014</attrlabl>
+<attrdef>Aggregation of non-hispanic age 18 and over multiple race tabulations that include "American Indian and Alaska Native"</attrdef>
+<attrdefs>Office of Planning</attrdefs>
+</attr>
+<attr>
+<attrlabl>P0010004</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0020002</attrlabl>
+</attr>
+<attr>
+<attrlabl>H0010003</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0030005</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0030007</attrlabl>
+</attr>
+<attr>
+<attrlabl>H0010002</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0030001</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0020005</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0020006</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0010008</attrlabl>
+</attr>
+<attr>
+<attrlabl>AWATER10</attrlabl>
+<attrdef>Water Area</attrdef>
+</attr>
+<attr>
+<attrlabl>P0020009</attrlabl>
+</attr>
+<attr>
+<attrlabl>P0010007</attrlabl>
+</attr>
+<attr>
+<attrlabl>SQMILES</attrlabl>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<!--no contact person or organization name available-->
+<cntaddr>
+<addrtype>unknown</addrtype>
+<address>200 I Street SE, 5th Floor</address>
+<country>AF</country>
+</cntaddr>
+</cntinfo>
+</distrib>
+<distliab>For data terms and conditions, go to http://dc.gov/page/terms-and-conditions-use-district-data</distliab>
+<custom>All data is available at http://opendata.dc.gov</custom>
+</distinfo>
+<metainfo>
+<metd>20151209</metd>
+<metc>
+<cntinfo>
+<!--no contact person or organization name available-->
+<cntaddr>
+<addrtype>unknown</addrtype>
+<address>200 I Street SE, 5th Floor</address>
+<country>AF</country>
+</cntaddr>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>

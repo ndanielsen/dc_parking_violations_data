@@ -44,6 +44,10 @@ neighborhood_data:
 parkingbeat_data:
 	$(PYTHON_INTERPRETER) src/data/add_geocode_dataset.py data/interim/neighborhood_enriched_parking_violations.tsv core/parking_beat/DPW_Parking_Beats.shp BEAT_ID parkingbeat data/interim/parkingbeat_enriched_parking_violations.tsv
 
+censusblock_data:
+	$(PYTHON_INTERPRETER) src/data/add_geocode_dataset.py data/interim/parkingbeat_enriched_parking_violations.tsv core/censusblocks2016/Census_Blocks__2010.shp BLOCK census_block data/interim/censusblock_enriched_parking_violations.tsv
+
+
 
 ## Delete all compiled Python files
 clean:
