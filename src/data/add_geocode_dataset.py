@@ -6,7 +6,6 @@ import pandas as pd
 import geopandas as gpd
 import shapely
 import numpy as np
-import matplotlib.pyplot as plt
 from dotenv import find_dotenv, load_dotenv
 
 @click.command()
